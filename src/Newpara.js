@@ -1,5 +1,6 @@
 import React from "react"
 import Checkbox from "./Checkbox"
+<<<<<<< HEAD
 import TodoData from "./data/todoData"
  
 class Newpara extends React.Component{
@@ -43,6 +44,20 @@ class Newpara extends React.Component{
             </div>
         )
     }
+=======
+ 
+function Newpara(){
+    return(
+        <div>
+            <Checkbox item="Attend Russel Peters Show Live"/>
+            <Checkbox item="Visit 'The Office' set in Scranton"/>
+            <Checkbox item="Visit Iceland once"/>
+            <Checkbox item="Get a Master's Degree in Comp Sci"/>
+            <Checkbox item="Followed by a job in the states"/>
+
+        </div>
+    )
+>>>>>>> 5e87074c30960dbb11b1f892ed0931c0485cc5e8
 
 }
 
